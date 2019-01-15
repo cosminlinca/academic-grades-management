@@ -1,0 +1,12 @@
+Tema: 2
+Nota: 9.0
+Predata in saptamana: 0
+Deadline: 5
+Feedback: buna
+
+Tema: 5
+Nota: 5.0
+Predata in saptamana: 7
+Deadline: 6
+Feedback: mai ai de lucru la Observer
+

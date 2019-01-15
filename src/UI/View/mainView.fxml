@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="pane" prefHeight="455.0" prefWidth="603.0" style="-fx-background-color: #008B8B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controller.MainController">
+   <children>
+      <Pane fx:id="studentsButton" layoutX="38.0" layoutY="103.0" prefHeight="157.0" prefWidth="158.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="4.0" layoutY="4.0" onMouseClicked="#handleStudentsLayer" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/keyboard-key-s.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="tasksButton" layoutX="218.0" layoutY="103.0" prefHeight="157.0" prefWidth="158.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="4.0" layoutY="4.0" onMouseClicked="#handleTasksLayer" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/keyboard-key-t.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      <Pane fx:id="gradesButton" layoutX="136.0" layoutY="284.0" prefHeight="157.0" prefWidth="158.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Pane>
+      <Pane layoutX="38.0" layoutY="14.0" prefHeight="73.0" prefWidth="83.0">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="51.0" layoutX="7.0" layoutY="20.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/iconfinder_cross_handrawn_close_436171%20(1).png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="322.0" layoutY="284.0" prefHeight="157.0" prefWidth="158.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="158.0" layoutX="5.0" layoutY="4.0" onMouseClicked="#handleReportsLayer" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/img_52143.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="140.0" layoutY="287.0" onMouseClicked="#handleGradesLayer" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/keyboard-key-g.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <Pane layoutX="401.0" layoutY="103.0" prefHeight="157.0" prefWidth="158.0" style="-fx-background-color: #DCDCDC;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="4.0" layoutY="4.0" onMouseClicked="#handleProfessorLayer" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/key-p-of-a-keyboard-pngrepo-com.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

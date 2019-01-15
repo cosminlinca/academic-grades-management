@@ -1,0 +1,18 @@
+Tema: 7
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 15
+Feedback: bravo
+
+Tema: 3
+Nota: 10.0
+Predata in saptamana: 15
+Deadline: 6
+Feedback: Foarte bine, tine-o tot asa!
+
+Tema: 1
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 3
+Feedback: 
+

@@ -1,0 +1,4 @@
+.bodybg {
+    -fx-background-image: url("/UI/View/images/login_picture.jpg");
+    -fx-background-size: 100% 100%;
+}

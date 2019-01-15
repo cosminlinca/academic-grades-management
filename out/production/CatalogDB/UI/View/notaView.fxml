@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="638.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controller.NotaController">
+   <children>
+      <Pane prefHeight="150.0" prefWidth="832.0" style="-fx-background-color: #008B8B;">
+         <children>
+            <Pane fx:id="back" layoutX="24.0" layoutY="18.0" prefHeight="61.0" prefWidth="76.0">
+               <children>
+                  <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="7.0" onMouseClicked="#handleGoBack" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/back.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Pane>
+            <Text layoutX="100.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD GRADE" textAlignment="CENTER" wrappingWidth="208.00000527501106">
+               <font>
+                  <Font name="Cambria Bold" size="23.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <AnchorPane layoutX="31.0" layoutY="78.0" prefHeight="494.0" prefWidth="335.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ComboBox fx:id="comboBoxTasks" layoutX="32.0" layoutY="100.0" prefWidth="150.0" promptText="Select task" />
+            <DatePicker fx:id="dateField" layoutX="32.0" layoutY="175.0" prefHeight="25.0" prefWidth="157.0" promptText="Select date" />
+            <TextField fx:id="gradeField" layoutX="32.0" layoutY="139.0" prefHeight="25.0" prefWidth="89.0" promptText="Grade" />
+            <TextArea fx:id="feedbackArea" layoutX="31.0" layoutY="263.0" prefHeight="144.0" prefWidth="232.0" promptText="Feedback.." />
+            <Button fx:id="addButton" layoutX="31.0" layoutY="421.0" mnemonicParsing="false" onAction="#handleNota" prefHeight="35.0" prefWidth="52.0" text="ADD">
+               <font>
+                  <Font name="Segoe UI Italic" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <ComboBox fx:id="comboBoxFeedbacks" layoutX="31.0" layoutY="218.0" prefHeight="25.0" prefWidth="232.0" promptText="Choose a feedback" />
+            <CheckBox fx:id="motivatedCheckBox" layoutX="32.0" layoutY="69.0" mnemonicParsing="false" text="Motivated" />
+            <ComboBox fx:id="comboName" layoutX="32.0" layoutY="26.0" prefWidth="150.0" promptText="Student name" />
+            <ComboBox fx:id="comboGroup" layoutX="194.0" layoutY="26.0" prefHeight="25.0" prefWidth="82.0" promptText="Group" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="407.0" layoutY="79.0" prefHeight="273.0" prefWidth="414.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Pagination fx:id="pagination" layoutX="13.0" layoutY="18.0" prefHeight="265.0" prefWidth="384.0" />
+            <TableView fx:id="tableView" layoutX="13.0" layoutY="21.0" prefHeight="207.0" prefWidth="384.0">
+              <columns>
+                  <TableColumn fx:id="tableColumnName" prefWidth="117.0" text="Name" />
+                  <TableColumn fx:id="tableColumnGroup" prefWidth="54.0" text="Group" />
+                  <TableColumn fx:id="tableColumnTask" prefWidth="87.0" text="Task" />
+                <TableColumn fx:id="tableColumnGrade" prefWidth="45.0" text="Grade" />
+                <TableColumn fx:id="tableColumnDate" text="Date" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="411.0" layoutY="382.0" prefHeight="228.0" prefWidth="406.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label layoutX="30.0" layoutY="22.0" text="FILTERS" textFill="DARKCYAN">
+               <font>
+                  <Font name="Segoe UI Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="filterStudentName" layoutX="30.0" layoutY="48.0" prefHeight="25.0" prefWidth="149.0" promptText="By Student Name" />
+            <TextField layoutX="30.0" layoutY="89.0" />
+            <TextField fx:id="filterTaskName" layoutX="30.0" layoutY="89.0" promptText="By Task" />
+            <DatePicker fx:id="filterStartDate" layoutX="30.0" layoutY="129.0" prefHeight="25.0" prefWidth="150.0" promptText="Start Date" />
+            <DatePicker fx:id="filterFinalDate" layoutX="203.0" layoutY="129.0" prefHeight="25.0" prefWidth="149.0" promptText="Final Date" />
+            <ComboBox fx:id="filterGroupComboBox" layoutX="30.0" layoutY="186.0" prefHeight="25.0" prefWidth="89.0" promptText="Group" />
+            <Line endX="300.0" layoutX="105.0" layoutY="166.0" opacity="0.26" startX="-105.0" strokeLineCap="ROUND" strokeLineJoin="BEVEL" />
+            <Button fx:id="filterButton" layoutX="139.0" layoutY="186.0" mnemonicParsing="false" onMouseClicked="#handleGroupFilter" text="FILTER GRADES">
+               <font>
+                  <Font name="Segoe UI Italic" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="scenarioButton" layoutX="31.0" layoutY="588.0" mnemonicParsing="false" onMouseClicked="#handleScenario" text="SCENARIO II">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

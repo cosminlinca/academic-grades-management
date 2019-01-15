@@ -1,0 +1,12 @@
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color:  #008B8B;
+}
+
+#tabel111 {
+    -fx-border-radius: 7px !important;
+    -fx-text-alignment: center;
+
+
+}

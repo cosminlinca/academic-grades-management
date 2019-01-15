@@ -1,0 +1,6 @@
+Tema: 7
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 15
+Feedback: Mai lucreaza la validarea datelor, in rest totul e bine!
+

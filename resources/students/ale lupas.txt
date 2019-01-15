@@ -1,0 +1,6 @@
+Tema: 7
+Nota: 10.0
+Predata in saptamana: 15
+Deadline: 15
+Feedback: Excelent!
+

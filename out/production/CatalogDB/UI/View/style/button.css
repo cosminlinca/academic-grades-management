@@ -1,0 +1,21 @@
+.button {
+    -fx-background-radius: 10em;
+}
+#mediiBtn {
+    -fx-background-image: url("/UI/View/images/grades.png");
+    -fx-background-radius: 10em;
+}
+
+#inExamenBtn {
+    -fx-background-image: url("/UI/View/images/examenn.jpg");
+    -fx-background-radius: 10em;
+}
+
+#histogramaBtn {
+    -fx-background-image: url("/UI/View/images/histograma.png");
+    -fx-background-radius: 10em;
+}
+
+#convertBtn {
+    -fx-background-radius: 30 !important;
+}

@@ -1,0 +1,12 @@
+Tema: 2
+Nota: 1.0
+Predata in saptamana: 15
+Deadline: 4
+Feedback: Ati obtinut nota 1 pe aceasta tema... :(
+
+Tema: 3
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 6
+Feedback: bravo
+

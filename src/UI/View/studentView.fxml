@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="576.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.Controller.StController">
+   <children>
+      <Pane layoutY="-24.0" prefHeight="150.0" prefWidth="702.0" style="-fx-background-color: #008B8B;">
+         <children>
+            <Pane fx:id="back" layoutX="7.0" layoutY="33.0" prefHeight="78.0" prefWidth="95.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="23.0" layoutY="14.0" onMouseClicked="#handleGoBack" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/back.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="501.0" layoutY="33.0" prefHeight="121.0" prefWidth="146.0">
+               <children>
+                  <ImageView fitHeight="93.0" fitWidth="95.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/46143.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Text layoutX="128.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADD STUDENT" textAlignment="CENTER" wrappingWidth="208.00000527501106">
+               <font>
+                  <Font name="Cambria Bold" size="23.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="23.0" layoutY="100.0" prefHeight="396.0" prefWidth="414.0" style="-fx-background-color: #DCDCDC;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Pagination fx:id="pagination" layoutX="9.0" layoutY="13.0" prefHeight="379.0" prefWidth="393.0" />
+            <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="321.0" prefWidth="386.0">
+               <columns>
+                  <TableColumn fx:id="idColumn" prefWidth="45.0" text="ID" />
+                  <TableColumn fx:id="nameColumn" prefWidth="105.0" text="NAME" />
+                  <TableColumn fx:id="groupColumn" prefWidth="56.0" text="GROUP" />
+                  <TableColumn fx:id="emailColumn" prefWidth="105.0" text="EMAIL" />
+                  <TableColumn fx:id="presentColumn" prefWidth="75.0" text="PRESENT" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+      <TextField fx:id="textFieldName" layoutX="492.0" layoutY="142.0" prefHeight="25.0" prefWidth="169.0" promptText="NAME" />
+      <TextField fx:id="textFieldEmail" layoutX="492.0" layoutY="183.0" prefHeight="25.0" prefWidth="169.0" promptText="EMAIL" />
+      <TextField fx:id="textFieldGroup" layoutX="492.0" layoutY="225.0" prefHeight="25.0" prefWidth="169.0" promptText="GROUP*" />
+      <Button layoutX="504.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleAddStudent" prefHeight="25.0" prefWidth="60.0" text="ADD">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="DARKCYAN" height="7.0" radius="3.0" width="7.0" />
+         </effect></Button>
+      <Button layoutX="577.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleUpdateStudent" text="UPDATE">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="DARKCYAN" height="6.0" radius="2.5" width="6.0" />
+         </effect></Button>
+      <Button fx:id="deleteButton" layoutX="93.0" layoutY="517.0" mnemonicParsing="false" onAction="#handleDeleteStudent" prefHeight="25.0" prefWidth="70.0" text="DELETE">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="DARKCYAN" height="7.0" radius="3.0" width="7.0" />
+         </effect></Button>
+      <Button fx:id="markAsMissingButton" layoutX="177.0" layoutY="517.0" mnemonicParsing="false" onAction="#handleTempDelStudent" text="TEMP DEL">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="DARKCYAN" height="7.0" radius="3.0" width="7.0" />
+         </effect></Button>
+      <Button fx:id="markAsPresent" layoutX="262.0" layoutY="517.0" mnemonicParsing="false" onAction="#handlePresent" prefHeight="25.0" prefWidth="70.0" text="PRESENT">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="DARKCYAN" height="7.0" radius="3.0" width="7.0" />
+         </effect></Button>
+      <Button layoutX="539.0" layoutY="312.0" mnemonicParsing="false" onAction="#handleClear" prefHeight="25.0" prefWidth="60.0" text="CLEAR">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+         <effect>
+            <DropShadow color="DARKCYAN" height="7.0" radius="3.0" width="7.0" />
+         </effect></Button>
+   </children>
+</AnchorPane>

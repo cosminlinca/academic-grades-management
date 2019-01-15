@@ -1,0 +1,66 @@
+Tema: 2
+Nota: 9.2
+Predata in saptamana: 9
+Deadline: 4
+Feedback: 
+
+Tema: 6
+Nota: 8.0
+Predata in saptamana: 10
+Deadline: 10
+Feedback: bravo
+
+Tema: 5
+Nota: 5.5
+Predata in saptamana: 10
+Deadline: 9
+Feedback: bravo
+
+Tema: 1
+Nota: 8.0
+Predata in saptamana: 3
+Deadline: 3
+Feedback: Excelent!
+
+Tema: 2
+Nota: 7.0
+Predata in saptamana: 10
+Deadline: 4
+Feedback: Mai lucreaza la validarea datelor, in rest totul e bine!
+
+Tema: 8
+Nota: 8.9
+Predata in saptamana: 15
+Deadline: 16
+Feedback: bravo
+
+Tema: 7
+Nota: 7.6
+Predata in saptamana: 15
+Deadline: 15
+Feedback: bravo
+
+Tema: 6
+Nota: 8.45
+Predata in saptamana: 15
+Deadline: 14
+Feedback: bravo
+
+Tema: 5
+Nota: 6.2
+Predata in saptamana: 15
+Deadline: 13
+Feedback: bravo
+
+Tema: 4
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 8
+Feedback: bravo
+
+Tema: 3
+Nota: 7.2
+Predata in saptamana: 15
+Deadline: 6
+Feedback: bravo
+

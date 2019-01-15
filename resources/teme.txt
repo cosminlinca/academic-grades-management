@@ -1,0 +1,5 @@
+id=1|descriere=tema la map|deadline=11|primire=5
+id=2|descriere=tema la plf|deadline=5|primire=4
+id=3|descriere=tema la probabilitati|deadline=14|primire=3
+id=5|descriere=descriere|deadline=6|primire=4
+id=7|descriere=tema la prob|deadline=8|primire=5

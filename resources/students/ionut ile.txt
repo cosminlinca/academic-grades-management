@@ -1,0 +1,42 @@
+Tema: 7
+Nota: 8.0
+Predata in saptamana: 13
+Deadline: 15
+Feedback: bravo
+
+Tema: 4
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 7
+Feedback: bravo
+
+Tema: 6
+Nota: 9.0
+Predata in saptamana: 13
+Deadline: 10
+Feedback: Excelent!
+
+Tema: 8
+Nota: 8.0
+Predata in saptamana: -38
+Deadline: 15
+Feedback: 
+
+Tema: 1
+Nota: 10.0
+Predata in saptamana: -38
+Deadline: 4
+Feedback: 
+
+Tema: 3
+Nota: 6.9
+Predata in saptamana: 15
+Deadline: 6
+Feedback: bravo
+
+Tema: 2
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 4
+Feedback: bravo
+

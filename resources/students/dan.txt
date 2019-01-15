@@ -1,0 +1,6 @@
+Tema: 1
+Nota: 7.0
+Predata in saptamana: 13
+Deadline: 13
+Feedback: bravo
+

@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="utils">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/utils.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/stockmetrics.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/MetricsReloadedOpenAPI.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/MetricsReloaded.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/jfreechart-0.9.16.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/jcommon-0.9.1.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/args4j-2.32.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="jar://$USER_HOME$/Downloads/MetricsReloaded/lib/args4j-2.32.jar!/OSGI-OPT/src" />
+    </SOURCES>
+  </library>
+</component>

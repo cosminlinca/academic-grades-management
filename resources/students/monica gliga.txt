@@ -1,0 +1,24 @@
+Tema: 7
+Nota: 8.0
+Predata in saptamana: 13
+Deadline: 15
+Feedback: bravo
+
+Tema: 4
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 7
+Feedback: bravo
+
+Tema: 3
+Nota: 8.0
+Predata in saptamana: 15
+Deadline: 6
+Feedback: bravo
+
+Tema: 2
+Nota: 7.0
+Predata in saptamana: 15
+Deadline: 4
+Feedback: Mai lucreaza la validarea datelor, in rest totul e bine!
+

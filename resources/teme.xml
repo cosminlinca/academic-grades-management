@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <tema temaId="1">
+        <descriere>PatternsH</descriere>
+        <deadline>3</deadline>
+        <primire>1</primire>
+    </tema>
+    <tema temaId="2">
+        <descriere>ConsolaH</descriere>
+        <deadline>4</deadline>
+        <primire>3</primire>
+    </tema>
+    <tema temaId="3">
+        <descriere>NoteH</descriere>
+        <deadline>6</deadline>
+        <primire>4</primire>
+    </tema>
+    <tema temaId="4">
+        <descriere>XMLH</descriere>
+        <deadline>7</deadline>
+        <primire>6</primire>
+    </tema>
+    <tema temaId="5">
+        <descriere>JavaGuiH</descriere>
+        <deadline>9</deadline>
+        <primire>7</primire>
+    </tema>
+    <tema temaId="6">
+        <descriere>FXMLH</descriere>
+        <deadline>10</deadline>
+        <primire>7</primire>
+    </tema>
+    <tema temaId="7">
+        <descriere>C#H</descriere>
+        <deadline>14</deadline>
+        <primire>10</primire>
+    </tema>
+</root>

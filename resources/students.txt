@@ -1,0 +1,5 @@
+id=3|nume=maria|email=maria@scs.ubbcluj.ro
+id=4|nume=fazan|email=faz@scs.ubbcluj.eo
+id=5|nume=alin|email=alin@scs.ubbcluj.ro
+id=1|nume=luca bogdan|email=bogdan@yahoo.com
+id=10|nume=dan marin|email=dan@y.com

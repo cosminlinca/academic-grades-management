@@ -1,0 +1,6 @@
+idStudent=1|idTema=1|idCadruDidactic=1|valoare=8.5|data=2018-10-25
+idStudent=3|idTema=2|idCadruDidactic=4|valoare=9.0|data=2018-09-24
+idStudent=5|idTema=3|idCadruDidactic=3|valoare=9.9|data=2018-11-08
+idStudent=1|idTema=5|idCadruDidactic=1|valoare=6.5|data=2018-11-15
+idStudent=3|idTema=5|idCadruDidactic=1|valoare=5.0|data=2018-11-15
+idStudent=4|idTema=5|idCadruDidactic=2|valoare=7.5|data=2018-11-15
