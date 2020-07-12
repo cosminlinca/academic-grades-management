@@ -21,7 +21,6 @@
     <orderEntry type="library" name="Hibernate 5.3.7-5.3.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.14" level="application_server_libraries" />
     <orderEntry type="library" name="sqljdbc4-2.0" level="project" />
-    <orderEntry type="library" name="itextpdf-5.1.0" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="utils" level="project" />
   </component>

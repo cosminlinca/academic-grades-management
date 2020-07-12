@@ -2,23 +2,62 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="@localhost" uuid="4d17de98-b515-4f4e-b0fa-20ee345cc095">
-      <database-info product="Microsoft SQL Server" version="14.00.1000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.0 for SQL Server" driver-version="7.0.0.0" family="MSSQL" exact-version="14.0.100">
+      <database-info product="Microsoft SQL Server" version="14.00.1000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.0 for SQL Server" driver-version="7.0.0.0" dbms="MSSQL" exact-version="14.0.100">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <user-name>cos</user-name>
-      <introspection-schemas>*:*|@:@|Catalog:|master:@|model:|msdb:|tempdb:</introspection-schemas>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" negative="1">
+              <node kind="schema" negative="1" />
+            </node>
+            <node kind="database">
+              <name qname="@" />
+              <name qname="master" />
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="Catalog" />
+              <name qname="model" />
+              <name qname="msdb" />
+              <name qname="tempdb" />
+              <node kind="schema" qname="" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
     <data-source name="hibernate.cfg.xml/Hibernate" uuid="96007c7a-513b-4fdf-8083-3d0d472f384a">
-      <database-info product="Microsoft SQL Server" version="14.00.1000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.0 for SQL Server" driver-version="7.0.0.0" family="MSSQL" exact-version="14.0.100">
+      <database-info product="Microsoft SQL Server" version="14.00.1000" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.0 for SQL Server" driver-version="7.0.0.0" dbms="MSSQL" exact-version="14.0.100">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <user-name>cos</user-name>
-      <introspection-schemas>*:*|@:@|Catalog:|master:|model:|msdb:|tempdb:</introspection-schemas>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" negative="1">
+              <node kind="schema" negative="1" />
+            </node>
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database">
+              <name qname="Catalog" />
+              <name qname="master" />
+              <name qname="model" />
+              <name qname="msdb" />
+              <name qname="tempdb" />
+              <node kind="schema" qname="" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>
